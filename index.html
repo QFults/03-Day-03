@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1 id="myHeader">Hello World!</h1>
+  <div id="myDiv"></div>
+  <form>
+    <button id="myBtn">Click Me</button>
+  </form>
+  <hr>
+  <button class="btn">Click Me</button>
+  <button class="btn">Click Me</button>
+  <button class="btn">Click Me</button>
+  <button class="btn">Click Me</button>
+  <button class="btn">Click Me</button>
+  <hr>
+  <div id="btns"></div>
+  <hr>
+  <form>
+    <p>
+      <label for="name">name</label>
+      <input type="text" name="name" id="name">
+    </p>
+    <button id="submit">Submit</button>
+  </form>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <script>
+    // console.log(document.getElementById('myHeader').textContent)
+    // document.getElementById('myHeader').textContent = 'Goodbye World!'
+
+    // console.log($('#myHeader').text())
+    // $('#myHeader').text('Goodbye World!')
+
+    // document.getElementById('myDiv').innerHTML = '<button>Click Me</button>'
+
+    // $('#myDiv').html('<button>Click Me</button>')
+
+    // document.getElementById('myBtn').addEventListener('click', event => {
+    //   event.preventDefault()
+    //   console.log('ping')
+    // })
+
+    // $('#myBtn').click(event => {
+    //   event.preventDefault()
+    //   console.log('ping')
+    // })
+
+    // document.addEventListener('click', event => {
+    //   if (event.target.className === 'btn') {
+    //     console.log('ping')
+    //   }
+    // })
+
+    // $('.btn').click(() => {
+    //   console.log('ping')
+    // })
+
+    // for (let i = 0; i < 5; i++) {
+    //   let btnElem = document.createElement('button')
+    //   btnElem.className = 'myButton'
+    //   btnElem.textContent = 'CLICK ME'
+    //   document.getElementById('btns').append(btnElem)
+    // }
+
+    // for (let i = 0; i < 5; i++) {
+    //   let btnElem = $('<button class="myButton">CLICK ME</button>')
+    //   $('#btns').append(btnElem)
+    // }
+
+    // $('.myButton').click(() => {
+    //   console.log('ping')
+    // })
+
+    // $('#submit').click(event => {
+    //   event.preventDefault()
+    //   console.log($('#name').val())
+    // })
+
+    // $.get('http://www.omdbapi.com/?apikey=trilogy&t=Goodfellas')
+    //   .then(res => {
+    //     console.log(res)
+    //   })
+    //   .catch(err => console.error(err))
+  </script>
+</body>
+
+</html>
